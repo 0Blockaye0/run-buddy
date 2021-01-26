@@ -9,6 +9,7 @@ body {
     color: #39a6b2
 }
 
+/* header start */ 
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -41,7 +42,9 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+/* header end */
 
+/* footer start */
 footer {
     background-color: #fce138;
     width: 100%;
@@ -63,6 +66,7 @@ footer div {
 footer a {
     color: #024e76;
 }
+/* footer end */
 
 section {
     padding: 60px;
@@ -120,6 +124,7 @@ section {
 }
 /* Hero Style End */
 
+/* what we do section start */
 .intro {
     text-align: center;
 }
@@ -131,7 +136,9 @@ section {
     font-size: 20px;
     margin: 0 auto;
 }
+/* what we do section end, not including the title and border classes */
 
+/* what you do section start */
 .steps {
     text-align: center;
     background-color: #fce138;
@@ -177,3 +184,4 @@ section {
 .steps span {
     font-size: 38px;
 }
+/* what you do section end */
