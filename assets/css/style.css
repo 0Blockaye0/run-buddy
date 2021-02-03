@@ -144,32 +144,29 @@ section {
 /* Hero Style End */
 
 /* what we do section start */
-.intro {
-    text-align: center;
-}
-
 .into p {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 /* what we do section end, not including the title and border classes */
 
 /* what you do section start */
 .steps {
-    text-align: center;
     background-color: #fce138;
 }
 
 /* also applies to meet the trainers section */
 .section-title {
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
 }
 
@@ -208,10 +205,6 @@ section {
 /* what you do section end */
 
 /* meet the trainers section start */
-.trainers {
-    text-align: center;
-}
-
 .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -241,6 +234,11 @@ section {
     text-align: right;
 }
 
+/* Flexbox styling */
+.flex-row {
+    display: flex;
+}
+
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -260,7 +258,6 @@ section {
 /* reach out style start */
 .contact {
     background-color: #024e76;
-    text-align: center;
 }
 
 .contact h2 {
